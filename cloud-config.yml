@@ -1,0 +1,16 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAyqbqAHoh+ce2vInjSo3O9Uh4bQ4MelMtElhc/PQv1KMPG5ywlvFPX4PKKdKPSk35IGRXktcrwH1U9AqbDrFxlZj5lYzf5xdo5dsrhTDsnSeQHoONmErRGdRtHRzMliDbObWhcHaz/JFQlGx5urBGgVFSl+LmnSGVgW7KYcJyHLEIMkKAr411t7++Pv7UybvI4pQDXqb6f/wsbh7p2yjOeTBPhBU3e+ztkencLgVDmzHVF+bf33j7ZXRRGylLuTMdNfZqKk4LS70o4bCcN+1OTAsBWvAchpDaeQPkiXclPpQXpc+NKaPJ5lxPpHIffCrI4l8EDFB/Wa8e+vWtIkkRyQ== admin@fromouteast.com
+hostname: rancheros.fromouteast.com
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 192.168.0.110
+        gateway: 192.168.0.1
+        mtu: 1500
+        dhcp: false
+    dns:
+      nameservers:
+        - 8.8.8.8
+        - 208.67.220.220
+        
